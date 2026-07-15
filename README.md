@@ -76,7 +76,7 @@ DNSSEC authenticates, but doesn’t encode DNS responses. As a result, perpetrat
 DNSSEC is often misconfigured, which can cause servers to lose the security benefits or even deny access to a website altogether.
     
    3 **Zone enumeration**: 
-DNSSEC uses additional resource records to enable signature validation. One such record, NSEC, is able to verify the non-existence of a DNS zone. It can also be used to walk through a DNS zone to gather all existing DNS records—a vulnerability called zone enumeration. Newer versions of NSEC, called NSEC3 and NSEC5, publish hashed records of hostnames, thereby encrypting them and preventing zone enumeration.
+DNSSEC uses additional resource records to enable signature validation. One such record, NSEC, is able to verify the non-existence of a DNS zone. It can also be used to walk through a DNS zone to gather all existing DNS records-a vulnerability called zone enumeration. Newer versions of NSEC, called NSEC3 and NSEC5, publish hashed records of hostnames, thereby encrypting them and preventing zone enumeration.
       
 # **DNS Spoofing PoC**
 
