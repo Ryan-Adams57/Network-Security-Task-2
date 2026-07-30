@@ -233,9 +233,9 @@ Once there, users are prompted to login into (what they believe to be) their acc
 
 Methods for executing a DNS spoofing attack include:
   
-  * **Man in the middle (MITM)** – The interception of communications between users and a DNS server in order to route users to a different/malicious IP address.
+  * **Man in the middle (MITM)** - The interception of communications between users and a DNS server in order to route users to a different/malicious IP address.
   
-  * **DNS server compromise** – The direct hijacking of a DNS server, which is configured to return a malicious IP address as explained in the following image.
+  * **DNS server compromise** - The direct hijacking of a DNS server, which is configured to return a malicious IP address as explained in the following image.
   
   ![image](https://user-images.githubusercontent.com/91763346/197282217-30ca12bd-57b4-4532-b6f4-28e24b99619e.png)
 
